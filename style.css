@@ -215,4 +215,65 @@ line-height:1.6;
 
 word-break:break-word;
 
+}.buttons{
+display:flex;
+gap:15px;
+padding:20px;
+}
+
+.buttons a{
+flex:1;
+text-decoration:none;
+padding:18px;
+text-align:center;
+border-radius:15px;
+font-size:16px;
+font-weight:600;
+transition:.3s;
+}
+
+.save{
+background:#d4af37;
+color:#111;
+}
+
+.share{
+background:#1d1d1d;
+color:#fff;
+border:1px solid #333;
+}
+
+.buttons a:hover{
+transform:translateY(-4px);
+box-shadow:0 10px 25px rgba(0,0,0,.35);
+}
+
+footer{
+
+padding:25px;
+
+text-align:center;
+
+font-size:13px;
+
+color:#888;
+
+border-top:1px solid #222;
+
+}
+
+@media(max-width:500px){
+
+.header h1{
+font-size:28px;
+}
+
+.actions{
+grid-template-columns:1fr 1fr;
+}
+
+.buttons{
+flex-direction:column;
+}
+
 }
