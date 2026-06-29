@@ -17,3 +17,9 @@ function shareCard() {
     }
 
 }
+
+new QRCode(document.getElementById("qrcode"), {
+    text: window.location.href,
+    width: 170,
+    height: 170
+});
