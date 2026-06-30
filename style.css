@@ -70,7 +70,7 @@ margin-top:8px;
 
 font-size:20px;
 
-color:#d4af37;
+color:#C5D6A5;
 
 font-weight:600;
 
@@ -131,7 +131,7 @@ font-size:28px;
 
 margin-bottom:12px;
 
-color:#d4af37;
+color:#C5D6A5;
 
 }
 
@@ -179,7 +179,7 @@ transition:.3s;
 
 .item:hover{
 
-border-color:#d4af37;
+border-color:#C5D6A5;
 
 transform:translateY(-3px);
 
@@ -191,7 +191,7 @@ font-size:24px;
 
 width:30px;
 
-color:#d4af37;
+color:#C5D6A5;
 
 margin-top:4px;
 
@@ -233,7 +233,7 @@ transition:.3s;
 }
 
 .save{
-background:#d4af37;
+background:#C5D6A5;
 color:#111;
 }
 
@@ -293,7 +293,7 @@ margin-bottom:20px;
 
 font-size:18px;
 
-color:#d4af37;
+color:#C5D6A5;
 
 }
 
